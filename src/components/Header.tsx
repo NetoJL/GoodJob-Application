@@ -23,20 +23,18 @@ function Header() {
     }
 
     const goToScheduleView = () => {
-        navigate('schedule-view')
+        navigate('/schedule-view')
     }
 
     return (
-        <div id="container">
-            <header id='header-container'>
-                <img src={logo} alt="GoodJob" onClick={goToLandingPage} />
-                <div id="options">
-                    <HeaderOption label='Profissionais' goTo={goToProfessionals} />
-                    <HeaderOption label='Agendar' goTo={goToScheduling} />
-                    <HeaderOption label='Agendamentos' goTo={goToScheduleView} />
-                </div>
-            </header>
-        </div>
+        <header id='header-container'>
+            <img id='img-logo' src={logo} alt="GoodJob" onClick={goToLandingPage} />
+            <div id='options'>
+                <HeaderOption label='Profissionais' goTo={goToProfessionals} />
+                <HeaderOption label='Agendar' goTo={goToScheduling} />
+                <HeaderOption label='Agendamentos' goTo={goToScheduleView} />
+            </div>
+        </header>
     )
 }
 
