@@ -1,26 +1,44 @@
-#headerOptions {
+#header-options {
     display: flex;
-    padding: 3rem;
+    flex: 1;
+    justify-content: center;
 }
 
-#headerOptions button {
-    background-color: #272727;
+#header-options button {
+    background: none;
     border: none;
+
+    padding: 5%;
 
     color: white;
     font-weight: bolder;
-    border-radius: 2rem;
+    border-radius: 20px;
 
-    padding: 2rem;
-
-    font-size: 1.25rem;
+    font-size: 2vw;
     font-weight: 600;
 
     cursor: pointer;
 }
 
-#headerOptions button:hover {
+#header-options button:hover {
     background: rgba(27, 162, 196);
-    border-radius: 2rem;
+    border-radius: 60px;
     transition-duration: 1s;
+}
+
+#header-options #img-logo {
+    width: 90px;
+    height: 90px;
+
+    margin-left: 35px;
+    
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #headerOptions button{
+        width: 100%;
+
+        align-items: center;
+    }
 }
