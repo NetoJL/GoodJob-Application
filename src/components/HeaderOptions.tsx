@@ -8,7 +8,7 @@ function HeaderOptions(props:any) {
     const goTo = props.goTo
 
     return (
-        <div id="headerOptions">
+        <div id="header-options">
             <button onClick={goTo}>{label}</button>
         </div>
     )
