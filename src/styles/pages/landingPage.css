@@ -1,19 +1,14 @@
 #container {
+    width: 100vw;
+    height: 100vh;
+
     display: flex;
-    flex-direction: column;
 }
 
-#body-container {
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    padding-top: 40vh;
-    font-size: 4rem;
-    font-weight: bolder;
+#landing-page-container {
+    
 }
 
-#body-container h4{
+#landing-page-container h4{
     color: black;
 }
