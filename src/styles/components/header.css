@@ -1,8 +1,3 @@
-#container {
-    display: flex;
-    flex-direction: row;
-}
-
 #header-container {
     width: 100vw;
     height: 15vh;
@@ -12,19 +7,22 @@
 
     align-items: center;
     justify-content: flex-start;
+
 }
 
-#header-container img {
-    width: 6rem;
-    height: 6rem;
+#header-container #img-logo {
+    width: 8vw;
+    height: 12vh;
 
-    margin-left: 2rem;
+    padding-left: 2vw;
     
     cursor: pointer;
 }
 
 #header-container #options {
     display: flex;
+    flex-direction: row;
 
-    margin-left: 17rem;
+    flex: 1;
+    justify-content: center;
 }
