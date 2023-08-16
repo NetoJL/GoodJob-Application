@@ -1,0 +1,12 @@
+#services-container {
+    display: grid;
+    flex-direction: column;
+}
+
+#services-list-container {
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+
+    display: flex;
+    flex-direction: column;
+}
