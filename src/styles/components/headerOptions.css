@@ -21,7 +21,7 @@
 }
 
 #header-options button:hover {
-    background: rgba(27, 162, 196);
+    background: rgb(27, 162, 196);
     border-radius: 60px;
     transition-duration: 1s;
 }
