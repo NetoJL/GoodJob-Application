@@ -1,0 +1,31 @@
+#service-list {
+    width: 90vw;
+    height: auto;
+    margin-top: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    background-color: #1ba2c4;
+    border-radius: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    
+    cursor: pointer;
+
+    box-shadow: 3px 3px #000;
+}
+
+#service-list:hover {
+    background: rgb(16, 73, 87);
+    transition-duration: 0.5s;
+}
+
+#service-list span {
+    color: white;
+    text-shadow: 0.75px 0.75px #000;
+
+    font-size: 1.5vw;
+}
