@@ -18,10 +18,6 @@ function Header() {
         navigate('/services')
     }
 
-    const goToScheduling = () => {
-        navigate('/scheduling')
-    }
-
     const goToScheduleView = () => {
         navigate('/schedule-view')
     }
@@ -31,7 +27,6 @@ function Header() {
             <img id='img-logo' src={logo} alt="GoodJob" onClick={goToLandingPage} />
             <div id='options'>
             <HeaderOption label='Serviços' goTo={goToServices} />
-                <HeaderOption label='Agendar' goTo={goToScheduling} />
                 <HeaderOption label='Agendamentos' goTo={goToScheduleView} />
             </div>
         </header>
